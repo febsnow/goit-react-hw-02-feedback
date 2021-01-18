@@ -9,6 +9,7 @@ export default function Filter({ value, changeHandler }) {
         Find contacts by name
       </label>
       <input
+        className={styles.formInput}
         type="text"
         id="filter"
         name="filter"
