@@ -1,0 +1,28 @@
+.type {
+  font: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.amount {
+  font-size: 18px;
+  font-weight: normal;
+}
+.button {
+  color: white;
+  background-color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  color: white;
+  background-color: red;
+}

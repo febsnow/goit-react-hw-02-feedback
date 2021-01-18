@@ -1,0 +1,13 @@
+.feedbackWidget {
+  width: 350px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: lightgray;
+
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  height: fit-content;
+}
+/* .feedbackWidget:not(:last-child) {
+  margin-bottom: 5px;
+} */

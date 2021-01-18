@@ -1,0 +1,36 @@
+.button {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  color: white;
+  background-color: gray;
+}
+.button {
+  margin-right: 5px;
+}
+.button:last-of-type {
+  margin-right: 0;
+}
+
+.good {
+  composes: button;
+  background-color: green;
+}
+
+.neutral {
+  composes: button;
+  color: black;
+  background-color: white;
+}
+.bad {
+  composes: button;
+  background-color: red;
+}
