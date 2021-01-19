@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/febsnow/goit-react-hw-02-state-forms.git"
+    "url": "git+https://github.com/febsnow/goit-react-hw-02-feedback.git"
   },
-  "homepage": "https://febsnow.github.io/goit-react-hw-02-state-forms",
+  "homepage": "https://febsnow.github.io/goit-react-hw-02-feedback",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

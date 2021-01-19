@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import Section from './Section/Section';
-import Statistics from './Statistics/Statistics';
-import Notification from './Notification/Notification';
-import styles from './FeedbackWidget.module.css';
+import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
+import Section from './components/Section/Section';
+import Statistics from './components/Statistics/Statistics';
+import Notification from './components/Notification/Notification';
+import './App.css';
 
 const INITIAL_STATE = {
   good: 0,
@@ -50,7 +50,7 @@ class App extends Component {
     const totalFeedbacks = this.countTotalFeedback(this.state);
     const percentage = this.countPositiveFeedbackPercentage(this.state);
     return (
-      <div className={styles.feedbackWidget}>
+      <div className="feedbackWidget">
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={this.state}
